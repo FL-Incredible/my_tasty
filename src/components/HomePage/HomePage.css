@@ -1,0 +1,87 @@
+/* @media and Screen */
+.heroimage {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url('../../assets/herobannernew.png');
+  border: 1px;
+  border-color: yellow;
+
+  /* Set a specific height */
+  /* height: 50%; */
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  height: auto !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  aspect-ratio: 16/9;
+}
+
+@media screen and (min-width: 768px) {
+  .heroimage {
+    height: 580px;
+  }
+}
+.body1 {
+  /* border: 1px solid pink; */
+  background-color: #f5f5ff;
+}
+/* .body2 { */
+/* border: 1px solid red; */
+/* } */
+
+.body3 {
+  /* border: 1px solid red; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.section1 {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+}
+
+.divider {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  background-color: white;
+  border-radius: 16px;
+}
+.icons {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  /* border: 1px solid yellow; */
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.font {
+  /* border: 1px solid green; */
+  font-family: 'Jost';
+  text-align: center;
+}
+
+.title {
+  /* border: 1px solid red; */
+  display: flex;
+  height: 300;
+  width: 300;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 22px;
+  padding-bottom: 5px;
+}
+
+.position {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
