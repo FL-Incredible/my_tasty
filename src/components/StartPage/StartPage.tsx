@@ -25,7 +25,7 @@ export default function StartPage() {
                     <Title className={`${urbanist.className} ${classes.title}`}>
                         Preorder your food so save time
                     </Title>
-                    <Text c="white" mt="lg" className={`${urbanist.className}`}>
+                    <Text c="white" mt="lg" fw={600} className={`${urbanist.className}`}>
                         Feel the warmth and togetherness with your family at your favorite restaurant
                     </Text>
 
@@ -33,7 +33,7 @@ export default function StartPage() {
                         <Button radius="xl" color="#1BAC4B" size="md">
                             <Text fw={700} className={`${urbanist.className}`}>Get started</Text>
                         </Button>
-                        <Button variant="default" radius="xl" size="md" onClick={() => router.push('/login')}>
+                        <Button variant="default" radius="xl" size="md" onClick={() => router.push('/SignIn')}>
                             <Text fw={700} className={`${urbanist.className}`} c="#1BAC4B">Sign in</Text>
                         </Button>
                     </Group>
